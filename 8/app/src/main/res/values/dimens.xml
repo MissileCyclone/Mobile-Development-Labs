@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_space_sm">8dp</dimen>
+    <dimen name="app_space_md">16dp</dimen>
+    <dimen name="app_space_lg">24dp</dimen>
+</resources>
