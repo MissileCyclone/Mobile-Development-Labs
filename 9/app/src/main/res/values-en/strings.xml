@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cooking Assistant</string>
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_lunch">Lunch</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="btn_change_lang">Change Language</string>
+    <string name="recipe_scrambled_eggs_full">SCRAMBLED EGGS\n\nIngredients: 2 eggs, 50g bacon.\n\nSteps: Fry bacon, add eggs, cook for 3 min.</string>
+    <string name="recipe_borch_full">CLASSIC BORSCHT\n\nIngredients: Beef, beets, cabbage.\n\nSteps: Boil broth, add veggies, simmer 40 min.</string>
+    <string name="recipe_steak_full">RIBEYE STEAK\n\nIngredients: Beef, salt, oil.\n\nSteps: Heat pan, fry 3 min each side.</string>
+</resources>

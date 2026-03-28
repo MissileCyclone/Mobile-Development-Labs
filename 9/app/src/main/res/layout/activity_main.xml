@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_change_lang"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <Button android:id="@+id/btnRu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="RU" />
+            <Button android:id="@+id/btnEn" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="EN" />
+            <Button android:id="@+id/btnZh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="ZH" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/filterGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radioBreakfast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category_breakfast" android:checked="true" />
+            <RadioButton android:id="@+id/radioLunch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category_lunch" />
+            <RadioButton android:id="@+id/radioDinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category_dinner" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/recipeOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:text="Рецепт появится здесь" />
+
+        <VideoView
+            android:id="@+id/recipeVideo"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/timerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/layoutTimer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#F5F5F5"
+                android:layout_marginBottom="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Таймер 1" android:textStyle="bold"/>
+                <EditText android:id="@+id/timerInput1" android:layout_width="100dp" android:layout_height="wrap_content" android:hint="Сек" android:inputType="number" />
+                <TextView android:id="@+id/timerText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" android:textSize="30sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+                    <Button android:id="@+id/btnStart1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▶" />
+                    <Button android:id="@+id/btnPause1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="II" />
+                    <Button android:id="@+id/btnReset1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="↻" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTimer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#F5F5F5"
+                android:layout_marginBottom="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Таймер 1" android:textStyle="bold"/>
+                <EditText android:id="@+id/timerInput2" android:layout_width="100dp" android:layout_height="wrap_content" android:hint="Сек" android:inputType="number" />
+                <TextView android:id="@+id/timerText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" android:textSize="30sp" android:gravity="center"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+                    <Button android:id="@+id/btnStart2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▶" />
+                    <Button android:id="@+id/btnPause2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="II" />
+                    <Button android:id="@+id/btnReset2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="↻" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

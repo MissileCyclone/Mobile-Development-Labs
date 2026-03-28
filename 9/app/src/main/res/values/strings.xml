@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Кулинарный помощник</string>
+    <string name="category_breakfast">Завтрак</string>
+    <string name="category_lunch">Обед</string>
+    <string name="category_dinner">Ужин</string>
+    <string name="btn_change_lang">Сменить язык</string>
+
+    <string name="recipe_scrambled_eggs_full">ЯИЧНИЦА С БЕКОНОМ\n\nИнгредиенты: 2 яйца, 50г бекона.\n\nШаги: Обжарьте бекон, разбейте яйца, жарьте 3 минуты.</string>
+    <string name="recipe_borch_full">БОРЩ КЛАССИЧЕСКИЙ\n\nИнгредиенты: Говядина, свекла, капуста.\n\nШаги: Сварите бульон, добавьте овощи, томите 40 минут.</string>
+    <string name="recipe_steak_full">СТЕЙК РИБАЙ\n\nИнгредиенты: Говядина (антрекот), соль, масло.\n\nШаги: Разогрейте сковороду, жарьте по 3 минуты с каждой стороны.</string>
+</resources>

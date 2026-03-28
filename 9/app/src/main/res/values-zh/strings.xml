@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">烹饪助手</string>
+    <string name="category_breakfast">早餐</string>
+    <string name="category_lunch">午餐</string>
+    <string name="category_dinner">晚餐</string>
+    <string name="btn_change_lang">改变语言</string>
+    <string name="recipe_scrambled_eggs_full">炒蛋\n\n配料：2个鸡蛋，50克培根。\n\n步骤：煎培根，加蛋，煮3分钟。</string>
+    <string name="recipe_borch_full">罗宋汤\n\n配料：牛肉、甜菜、卷心菜。\n\n步骤：煮汤，加蔬菜，炖40分钟。</string>
+    <string name="recipe_steak_full">肋眼牛排\n\n配料：牛肉、盐、油。\n\n步骤：热锅，每面煎3分钟。</string>
+</resources>
