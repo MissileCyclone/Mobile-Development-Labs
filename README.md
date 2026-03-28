@@ -16,3 +16,4 @@
 | 6 | Работа с БД | https://github.com/MissileCyclone/Mobile-Development-Labs/tree/main/6 | https://disk.yandex.ru/i/jTF7LSr0psKzwQ |
 | 7 | Работа с камерой | https://github.com/MissileCyclone/Mobile-Development-Labs/tree/main/7 | https://disk.yandex.ru/i/IEOwnewHDYGWHQ |
 | 8 | Калькулятор ЕГЭ (API Retrofit) | https://github.com/MissileCyclone/Mobile-Development-Labs/tree/main/8 | https://disk.yandex.ru/i/WHgYdRPkVn0e3w |
+| 9 | Кулинарный помощник | https://github.com/MissileCyclone/Mobile-Development-Labs/tree/main/9 | https://disk.yandex.ru/i/rB5n3jnp5MHKbA |
